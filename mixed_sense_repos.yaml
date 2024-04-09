@@ -1,0 +1,115 @@
+---
+repositories:
+  # Gazebo repositories
+  gz-cmake:
+    type: git
+    url: https://github.com/gazebosim/gz-cmake
+    version: gz-cmake3
+  gz-common:
+    type: git
+    url: https://github.com/gazebosim/gz-common
+    version: gz-common5
+  gz-fuel-tools:
+    type: git
+    url: https://github.com/gazebosim/gz-fuel-tools
+    version: gz-fuel-tools8
+  gz-sim:
+    type: git
+    url: https://github.com/kpant14/gz-sim
+    version: multipath
+  gz-gui:
+    type: git
+    url: https://github.com/kpant14/gz-gui
+    version: gz-gui7
+  gz-launch:
+    type: git
+    url: https://github.com/gazebosim/gz-launch
+    version: gz-launch6
+  gz-math:
+    type: git
+    url: https://github.com/gazebosim/gz-math
+    version: gz-math7
+  gz-msgs:
+    type: git
+    url: https://github.com/kpant14/gz-msgs
+    version: multipath
+  gz-physics:
+    type: git
+    url: https://github.com/gazebosim/gz-physics
+    version: gz-physics6
+  gz-plugin:
+    type: git
+    url: https://github.com/gazebosim/gz-plugin
+    version: gz-plugin2
+  gz-rendering:
+    type: git
+    url: https://github.com/gazebosim/gz-rendering
+    version: gz-rendering7
+  gz-sensors:
+    type: git
+    url: https://github.com/kpant14/gz-sensors
+    version: multipath
+  gz-tools:
+    type: git
+    url: https://github.com/gazebosim/gz-tools
+    version: gz-tools2
+  gz-transport:
+    type: git
+    url: https://github.com/gazebosim/gz-transport
+    version: gz-transport12
+  gz-utils:
+    type: git
+    url: https://github.com/gazebosim/gz-utils
+    version: gz-utils2
+  sdformat:
+    type: git
+    url: https://github.com/kpant14/sdformat
+    version: multipath
+  libpredict:
+    type: git
+    url: https://github.com/la1k/libpredict
+    version: master
+  
+  # Custom repositories for supporting Mixed-Sense
+  px4_msgs:
+    type: git
+    url: https://github.com/kpant14/px4_msgs
+    version: main
+  mavros:
+    type: git
+    url: https://github.com/mavlink/mavros
+    version: ros2   
+  ros_gz:
+    type: git
+    url: https://github.com/kpant14/ros_gz
+    version: ros2  
+  px4_offboard:
+    type: git
+    url: https://github.com/kpant14/px4_offboard 
+    version: master   
+  px4_gps:
+    type: git
+    url: https://github.com/kpant14/px4_gps
+    version: main 
+  offboard_detector:
+    type: git
+    url: https://github.com/kpant14/offboard_detector
+    version: main            
+  gnss_meaconing_attack:
+    type: git
+    url: https://github.com/kpant14/gnss_meaconing_attack.git
+    version: main 
+  mixed_sense_bringup:
+    type: git
+    url: https://github.com/kpant14/mixed_sense_bringup.git
+    version: ros2     
+
+  # Repositories for Qualisys Mocap  
+  qualisys_cpp_sdk:
+    type: git
+    url: https://github.com/jgoppert/qualisys_cpp_sdk.git
+    version: install_fix 
+  qualisys_mocap:
+    type: git
+    url: https://github.com/kpant14/qualisys_mocap.git
+    version: main     
