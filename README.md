@@ -1,4 +1,4 @@
-# px4-gz-docker
+# mixed_sense
 Docker files needed to build images for px4_sitl simulation in ROS2 and Gazebo (by default the AbuDhabi Model will be loaded)
 
 The `./work` directory setup 
