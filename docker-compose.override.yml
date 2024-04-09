@@ -1,6 +1,6 @@
 services:
 
-  px4_gz_docker:
+  mixed_sense:
     deploy:
       resources:
         reservations:

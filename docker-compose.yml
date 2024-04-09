@@ -6,8 +6,7 @@ volumes:
     gz_config:
 
 services:
-
-  px4_gz_docker:
+  mixed_sense:
     environment:
       - HOST_UID=${HOST_UID}
       - HOST_GID=${HOST_GID}
@@ -20,13 +19,13 @@ services:
       - PX4_HOME_ALT=0
       - ROS_DOMAIN_ID=1
       - PX4_MICRODDS_NS=px4_1
-    image: px4_gz_docker
+    image: mixed_sense
     build:
        dockerfile: Dockerfile
     tty: true
     stdin_open: true
     privileged: true
-    hostname: px4_gz_docker
+    hostname: mixed_sense
     sysctls:
       - net.ipv6.conf.all.disable_ipv6=0
     volumes:
