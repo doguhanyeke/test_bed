@@ -48,6 +48,9 @@ RUN bash /tmp/install/base.sh && /docker_clean.sh
 COPY install/ros.sh /tmp/install/ros.sh
 RUN bash /tmp/install/ros.sh && /docker_clean.sh
 
+COPY install/gazebo.sh /tmp/install/gazebo.sh
+RUN bash /tmp/install/gazebo.sh && /docker_clean.sh
+
 COPY install/foxglove.sh /tmp/install/foxglove.sh
 RUN bash /tmp/install/foxglove.sh && /docker_clean.sh
 
