@@ -14,9 +14,9 @@ sudo DEBIAN_FRONTEND=noninteractive apt-get install --no-install-recommends -y \
 	ros-${ROS_VERSION}-cyclonedds \
 	ros-${ROS_VERSION}-rmw-cyclonedds-cpp \
 	ros-${ROS_VERSION}-gps-msgs \
+	ros-${ROS_VERSION}-actuator-msgs \
+	ros-${ROS_VERSION}-mavros \
 	python3-rosdep \
 	python3-colcon-common-extensions \
-	libgflags-dev
-
-sudo apt install ros-humble-actuator-msgs 
-sudo apt update && sudo apt install foxglove-studio -y
+	libgflags-dev \
+	ros-${ROS_VERSION}-foxglove-bridge \

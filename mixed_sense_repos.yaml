@@ -74,11 +74,7 @@ repositories:
   px4_msgs:
     type: git
     url: https://github.com/kpant14/px4_msgs
-    version: main
-  mavros:
-    type: git
-    url: https://github.com/mavlink/mavros
-    version: ros2   
+    version: main 
   ros_gz:
     type: git
     url: https://github.com/kpant14/ros_gz
@@ -102,7 +98,7 @@ repositories:
   mixed_sense_bringup:
     type: git
     url: https://github.com/kpant14/mixed_sense_bringup.git
-    version: ros2     
+    version: main     
 
   # Repositories for Qualisys Mocap  
   qualisys_cpp_sdk:
