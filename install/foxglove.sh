@@ -28,7 +28,7 @@ else
   mkdir -p /tmp/foxglove-install
   cd /tmp/foxglove-install
   curl -L \
-    https://get.foxglove.dev/desktop/latest/foxglove-studio-2.1.0-linux-amd64.deb --output foxglove-studio.deb
+    https://get.foxglove.dev/desktop/v2.1.0/foxglove-studio-2.1.0-linux-amd64.deb --output foxglove-studio.deb
   sudo dpkg -i foxglove-studio.deb
   rm -rf /tmp/foxglove-install
 fi
