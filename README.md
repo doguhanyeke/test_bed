@@ -1,5 +1,11 @@
 # MIXED-SENSE: A Mixed Reality Sensor Emulation Framework For UAV Cybersecurity
 
+Install vcstool in the host computer as it is required to fetch all the related repositories from GitHub
+
+```
+sudo apt install python3-vcstool
+```
+
 Change the branch to gps_spoofing
 
 `git switch gps_spoofing`
