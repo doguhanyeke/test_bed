@@ -85,8 +85,8 @@ repositories:
     version: ros2  
   px4_offboard:
     type: git
-    url: https://github.com/kpant14/px4_offboard 
-    version: master   
+    url: https://github.com/doguhanyeke/px4_offboard 
+    version: swarm
   px4_gps:
     type: git
     url: https://github.com/kpant14/px4_gps
@@ -99,10 +99,18 @@ repositories:
     type: git
     url: https://github.com/kpant14/gnss_meaconing_attack.git
     version: main 
+  RVO2-3D:
+    type: git
+    url: https://github.com/doguhanyeke/orca
+    version: main
+  ros2-orca:
+    type: git
+    url: https://github.com/doguhanyeke/ros2-orca
+    version: main
   mixed_sense_bringup:
     type: git
-    url: https://github.com/kpant14/mixed_sense_bringup.git
-    version: main     
+    url: https://github.com/doguhanyeke/mixed_sense_bringup
+    version: swarm
 
   # Repositories for Qualisys Mocap  
   qualisys_cpp_sdk:
