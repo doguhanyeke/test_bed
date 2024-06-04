@@ -107,6 +107,14 @@ repositories:
     type: git
     url: https://github.com/doguhanyeke/ros2-orca
     version: main
+  ros2-glas:
+    type: git
+    url: https://github.com/doguhanyeke/ros2-glas
+    version: main
+  glas: 
+    type: git
+    url: https://github.com/doguhanyeke/glas
+    version: main
   mixed_sense_bringup:
     type: git
     url: https://github.com/doguhanyeke/mixed_sense_bringup
