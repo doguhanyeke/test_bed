@@ -9,7 +9,7 @@ fi
 
 #!/bin/bash
 if [ ! -d ./work/ros2_ws ] ; then
-    git clone https://github.com/kpant14/PX4-Autopilot.git -b gps_spoofing px4
+    git clone https://github.com/doguhanyeke/PX4-Autopilot.git -b swarm px4
     cd px4
     git tag v1.14.0-rc2
 fi
